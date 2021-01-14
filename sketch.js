@@ -1,11 +1,11 @@
-var doraemon,doraemonsad,doraemonImage;
+var doraemon,doraemonImage;
 var cloud,cloudImage,obstacleGroup;
 var star,starImage,starGroup;
 var gameState="play";
 
 function preload(){
 doraemonImage=loadImage("doraemon.png");
-  doraemonsad=loadImage("doraemonsad.gif");
+ // doraemonsad=loadImage("doraemonsad.gif");
   cloudImage=loadImage("cloud.png");
   starImage=loadImage("star.png");
 }
